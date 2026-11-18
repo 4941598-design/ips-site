@@ -27,7 +27,7 @@ export default function SolutionsSection() {
   ];
 
   return (
-    <section className="py-28 bg-slate-50">
+    <section className="py-28 bg-white">
       <div className="mx-auto max-w-7xl px-6">
         <h2 className="text-center text-5xl font-bold">
           Рішення для об'єктів

@@ -5,18 +5,25 @@ import BrandsSection from "./components/BrandsSection"
 export default function HomePage() {
   return (
     <main>
-      <section className="bg-sky-900 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-32 lg:py-40">
+      <section
+  className="relative overflow-hidden text-white"
+  style={{
+    backgroundImage: "url('/images/projects/hero.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+        <div className="mx-auto max-w-7xl px-6 py-48 lg:py-64">
           <p className="text-sm uppercase tracking-widest">
             Працюємо з 1997 року
           </p>
 
-          <h1 className="mt-6 text-6xl font-bold leading-tight lg:text-8xl">
-  Стелі.
-  <br />
-  Акустика.
-  <br />
-  Освітлення.
+          <h1 className="mt-6 text-5xl font-bold leading-tight lg:text-7x2">
+Стелі.
+Акустика.
+Освітлення.  
+  
+  
 </h1>
 
           <p className="mt-6 max-w-3xl text-xl">
@@ -26,11 +33,12 @@ export default function HomePage() {
           </p>
 
           <p className="mt-8 text-lg font-semibold">
-            Простір. Комфорт. Рішення.
+            Рішення для кофортного простору
           </p>
+          <div className="absolute inset-0 bg-slate-900/60"></div>
 
           <div className="mt-10 flex gap-4">
-            <button className="rounded-xl bg-amber-500 px-6 py-3 text-black">
+            <button className="rounded-xl bg-amber-500 px-8 py-4 text-black">
               Отримати консультацію
             </button>
 
@@ -44,18 +52,20 @@ export default function HomePage() {
       <SolutionsSection />
 
       <ProductsSection />
-<BrandsSection />
+
       <section className="py-20">
-        <div className="mx-auto max-w-7xl px-6">
-          <h2 className="text-4xl font-bold">
-            Про компанію IPS
-          </h2>
+        <div className="mx-auto max-w-screen-2xl px-8">
+          <h2 className="text-5xl font-bold text-sky-900">
+  Про компанію Buddecor
+</h2>
 
           <p className="mt-6 max-w-3xl text-lg text-slate-600">
             Ми допомагаємо реалізовувати сучасні простори
             за допомогою стельових систем, архітектурної
             акустики та освітлення.
           </p>
+          
+
         </div>
       </section>
     </main>
