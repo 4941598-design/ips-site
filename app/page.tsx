@@ -1,5 +1,7 @@
 import SolutionsSection from "./components/SolutionsSection"
 import ProductsSection from "./components/ProductsSection"
+import StatsSection from "./components/StatsSection"
+import BrandsSection from "./components/BrandsSection"
 export default function HomePage() {
   return (
     <main>
@@ -9,13 +11,13 @@ export default function HomePage() {
             Працюємо з 1997 року
           </p>
 
-          <h1 className="mt-6 text-5xl font-bold">
-           Buddecor
-          </h1>
-
-          <h2 className="mt-4 text-3xl">
-            СТЕЛІ • АКУСТИКА • ОСВІТЛЕННЯ
-          </h2>
+          <h1 className="mt-6 text-6xl font-bold leading-tight lg:text-8xl">
+  Стелі.
+  <br />
+  Акустика.
+  <br />
+  Освітлення.
+</h1>
 
           <p className="mt-6 max-w-3xl text-xl">
             Комплексні рішення для лікарень,
@@ -38,11 +40,11 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
+<StatsSection />
       <SolutionsSection />
 
       <ProductsSection />
-
+<BrandsSection />
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-6">
           <h2 className="text-4xl font-bold">
