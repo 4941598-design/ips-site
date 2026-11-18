@@ -4,21 +4,25 @@ export default function BrandsPage() {
       name: "Rockfon",
       description:
         "Світовий виробник акустичних стельових систем і архітектурної акустики.",
+      link: "/brands/rockfon",
     },
     {
       name: "Heradesign",
       description:
         "Панелі з деревного волокна для акустичного комфорту та дизайну.",
+      link: "/brands/heradesign",
     },
     {
       name: "Kraft",
       description:
         "Металеві стелі, архітектурні рейки та дизайнерські металеві рішення.",
+      link: "/brands/kraft",
     },
     {
       name: "Clip-In",
       description:
         "Металеві стельові системи для медичних і технічних приміщень.",
+      link: "/products",
     },
   ];
 
@@ -47,9 +51,12 @@ export default function BrandsPage() {
               {brand.description}
             </p>
 
-            <button className="mt-6 rounded-xl bg-sky-900 px-5 py-3 text-white">
+            <a
+              href={brand.link}
+              className="mt-6 inline-block rounded-xl bg-sky-900 px-5 py-3 text-white"
+            >
               Детальніше
-            </button>
+            </a>
           </article>
         ))}
       </div>
