@@ -4,13 +4,13 @@ export default function HomePage() {
   return (
     <main>
       <section className="bg-sky-900 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-24">
+        <div className="mx-auto max-w-7xl px-6 py-32 lg:py-40">
           <p className="text-sm uppercase tracking-widest">
             Працюємо з 1997 року
           </p>
 
           <h1 className="mt-6 text-5xl font-bold">
-            IPSnpm
+           Buddecor
           </h1>
 
           <h2 className="mt-4 text-3xl">
