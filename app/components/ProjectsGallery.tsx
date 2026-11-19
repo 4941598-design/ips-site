@@ -29,11 +29,11 @@ export default function ProjectsGallery() {
             </div>
           </div>
 
-          <div className="overflow-hidden rounded-3xl bg-white shadow-lg">
+          <div className="overflow-hidden rounded-3xl bg-white shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
             <img
               src="/images/projects/office-01.jpg"
               alt="Офісний простір"
-              className="h-80 w-full object-cover"
+              className="h-80 w-full object-cover transition duration-500 hover:scale-110"
             />
 
             <div className="p-6">

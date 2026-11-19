@@ -1,10 +1,10 @@
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
-      <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-8 py-5">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
 
         <div>
-          <h1 className="text-3xl font-bold tracking-tight text-sky-900">
+          <h1 className="text-2xl font-bold tracking-tight text-sky-900">
             BUDDECOR
           </h1>
 
