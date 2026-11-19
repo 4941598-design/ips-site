@@ -1,8 +1,8 @@
 export default function ProjectsGallery() {
   return (
     <section className="bg-slate-50 py-24">
-      <div className="mx-auto max-w-7xl px-6">
-        <h2 className="text-center text-5xl font-bold text-sky-900">
+      <div className="mx-auto w-full max-w-screen-2xl px-6">
+        <h2 className="mx-auto text-center text-5xl font-bold text-sky-900">
           Реалізовані проєкти
         </h2>
 
@@ -10,12 +10,12 @@ export default function ProjectsGallery() {
           Рішення для медичних закладів, офісів та освітніх просторів
         </p>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-3">
-          <div className="overflow-hidden rounded-3xl bg-white shadow-lg">
+        <div className="mt-12 grid w-full gap-8 md:grid-cols-3">
+          <div className="overflow-hidden rounded-3xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
             <img
               src="/images/projects/hospital-01.jpg"
               alt="Медичний заклад"
-              className="h-80 w-full object-cover"
+              className="h-80 w-full object-cover transition duration-500 hover:scale-105"
             />
 
             <div className="p-6">
@@ -47,11 +47,11 @@ export default function ProjectsGallery() {
             </div>
           </div>
 
-          <div className="overflow-hidden rounded-3xl bg-white shadow-lg">
+          <div className="overflow-hidden rounded-3xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
             <img
               src="/images/projects/school-01.jpg"
               alt="Освітній заклад"
-              className="h-80 w-full object-cover"
+              className="h-80 w-full object-cover transition duration-500 hover:scale-105"
             />
 
             <div className="p-6">

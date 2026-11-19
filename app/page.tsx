@@ -14,41 +14,48 @@ export default function HomePage() {
     backgroundPosition: "center",
   }}
 >
-        <div className="mx-auto max-w-7xl px-6 py-48 lg:py-64">
-          <p className="text-sm uppercase tracking-widest">
-            Працюємо з 1997 року
-          </p>
+  <div className="absolute inset-0 bg-slate-900/45" />
 
-          <h1 className="text-6xl font-bold leading-tight drop-shadow-2xl lg:text-8xl">
-Стелі.
-Акустика.
-Освітлення.  
-  
-  
-</h1>
+  <div className="relative z-10 w-full px-6">
+  <div className="flex min-h-[50vh] items-center justify-center">
+    <div className="mx-auto max-w-5xl text-center">        
+        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-200">
+          Працюємо з 1997 року
+        </p>
 
-          <p className="mt-6 max-w-3xl text-xl">
-            Комплексні рішення для лікарень,
-            офісів, навчальних закладів,
-            ресторанів та ТРЦ.
-          </p>
+        <h1 className="mt-6 text-4xl font-bold leading-tight lg:text-6xl">
+          Стелі.
+          <br />
+          Акустика.
+          <br />
+          Освітлення.
+        </h1>
 
-          <p className="mt-8 text-lg font-semibold">
-            Рішення для кофортного простору
-          </p>
-          <div className="absolute inset-0 bg-slate-900/40"></div>
+        <p className="mx-auto mt-8 max-w-3xl text-xl text-slate-200">
+          Комплексні рішення для лікарень, офісів,
+          навчальних закладів, ресторанів та ТРЦ.
+        </p>
 
-          <div className="mt-10 flex gap-4">
-            <button className="rounded-xl bg-amber-500 px-8 py-4 text-black">
-              Отримати консультацію
-            </button>
+        <div className="mt-40">
 
-            <button className="rounded-xl border border-white px-6 py-3">
-              Надіслати проєкт
-            </button>
-          </div>
-        </div>
-      </section>
+  <p className="text-lg font-semibold">
+    Рішення для комфортного простору
+  </p>
+
+  <div className="mt-8 flex flex-wrap justify-center gap-6">
+  <button className="min-w-[260px] rounded-2xl bg-amber-500 px-8 py-4 text-lg font-bold text-slate-900 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:bg-amber-400">
+    Отримати консультацію
+  </button>
+
+  <button className="min-w-[260px] rounded-2xl border-2 border-white bg-white/15 px-8 py-4 text-lg font-bold text-white backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-slate-900">
+    Надіслати проєкт
+  </button>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
 <StatsSection />
 <ProjectsGallery />
       <SolutionsSection />
