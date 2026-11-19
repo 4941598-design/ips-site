@@ -19,7 +19,7 @@ export default function HomePage() {
             Працюємо з 1997 року
           </p>
 
-          <h1 className="mt-6 text-5xl font-bold leading-tight lg:text-7x2">
+          <h1 className="text-6xl font-bold leading-tight drop-shadow-2xl lg:text-8xl">
 Стелі.
 Акустика.
 Освітлення.  
@@ -36,7 +36,7 @@ export default function HomePage() {
           <p className="mt-8 text-lg font-semibold">
             Рішення для кофортного простору
           </p>
-          <div className="absolute inset-0 bg-slate-900/60"></div>
+          <div className="absolute inset-0 bg-slate-900/40"></div>
 
           <div className="mt-10 flex gap-4">
             <button className="rounded-xl bg-amber-500 px-8 py-4 text-black">
