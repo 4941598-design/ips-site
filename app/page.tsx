@@ -2,6 +2,7 @@ import SolutionsSection from "./components/SolutionsSection"
 import ProductsSection from "./components/ProductsSection"
 import StatsSection from "./components/StatsSection"
 import BrandsSection from "./components/BrandsSection"
+import ProjectsGallery from "./components/ProjectsGallery"
 export default function HomePage() {
   return (
     <main>
@@ -49,6 +50,7 @@ export default function HomePage() {
         </div>
       </section>
 <StatsSection />
+<ProjectsGallery />
       <SolutionsSection />
 
       <ProductsSection />

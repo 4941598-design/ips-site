@@ -1,0 +1,71 @@
+export default function ProjectsGallery() {
+  return (
+    <section className="bg-slate-50 py-24">
+      <div className="mx-auto max-w-7xl px-6">
+        <h2 className="text-center text-5xl font-bold text-sky-900">
+          Реалізовані проєкти
+        </h2>
+
+        <p className="mt-4 text-center text-lg text-slate-600">
+          Рішення для медичних закладів, офісів та освітніх просторів
+        </p>
+
+        <div className="mt-12 grid gap-8 md:grid-cols-3">
+          <div className="overflow-hidden rounded-3xl bg-white shadow-lg">
+            <img
+              src="/images/projects/hospital-01.jpg"
+              alt="Медичний заклад"
+              className="h-80 w-full object-cover"
+            />
+
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold">
+                Медичні заклади
+              </h3>
+
+              <p className="mt-2 text-slate-600">
+                Гігієнічні та акустичні стельові рішення.
+              </p>
+            </div>
+          </div>
+
+          <div className="overflow-hidden rounded-3xl bg-white shadow-lg">
+            <img
+              src="/images/projects/office-01.jpg"
+              alt="Офісний простір"
+              className="h-80 w-full object-cover"
+            />
+
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold">
+                Офісні простори
+              </h3>
+
+              <p className="mt-2 text-slate-600">
+                Акустичний комфорт та продуктивність.
+              </p>
+            </div>
+          </div>
+
+          <div className="overflow-hidden rounded-3xl bg-white shadow-lg">
+            <img
+              src="/images/projects/school-01.jpg"
+              alt="Освітній заклад"
+              className="h-80 w-full object-cover"
+            />
+
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold">
+                Освіта
+              </h3>
+
+              <p className="mt-2 text-slate-600">
+                Комфортне середовище для навчання.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
