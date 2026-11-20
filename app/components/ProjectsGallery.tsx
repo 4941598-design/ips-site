@@ -18,8 +18,8 @@ export default function ProjectsGallery() {
               className="h-80 w-full object-cover transition duration-500 hover:scale-105"
             />
 
-            <div className="p-6">
-              <h3 className="text-2xl font-semibold">
+            <div className="p-8">
+              <h3 className="text-2xl font-bold text-sky-900">
                 Медичні заклади
               </h3>
 
@@ -33,11 +33,11 @@ export default function ProjectsGallery() {
             <img
               src="/images/projects/office-01.jpg"
               alt="Офісний простір"
-              className="h-80 w-full object-cover transition duration-500 hover:scale-110"
+              className="h-80 w-full object-cover transition duration-500 hover:scale-105"
             />
 
-            <div className="p-6">
-              <h3 className="text-2xl font-semibold">
+            <div className="p-8">
+              <h3 className="text-2xl font-bold text-sky-900">
                 Офісні простори
               </h3>
 
@@ -54,9 +54,8 @@ export default function ProjectsGallery() {
               className="h-80 w-full object-cover transition duration-500 hover:scale-105"
             />
 
-            <div className="p-6">
-              <h3 className="text-2xl font-semibold">
-                Освіта
+            <div className="p-8">
+              <h3 className="text-2xl font-bold text-sky-900">
               </h3>
 
               <p className="mt-2 text-slate-600">

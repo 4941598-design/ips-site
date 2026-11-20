@@ -27,7 +27,7 @@ export default function ProductsSection() {
   ];
 
   return (
-    <section className="py-20">
+    <section className="bg-slate-50 py-24">
       <div className="mx-auto max-w-7xl px-6">
         <h2 className="text-center text-4xl font-bold">
           Популярні рішення
@@ -37,13 +37,13 @@ export default function ProductsSection() {
           {products.map((product) => (
             <div
               key={product.name}
-              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+              className="group rounded-3xl border border-slate-200 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-sky-300 hover:shadow-2xl"
             >
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-2xl font-bold text-sky-900">
                 {product.name}
               </h3>
 
-              <p className="mt-3 text-slate-600">
+              <p className="mt-4 leading-7 text-slate-600">
                 {product.type}
               </p>
             </div>
