@@ -35,7 +35,7 @@ export default function SolutionsSection() {
   return (
     <section className="bg-white py-36">
       <div className="mx-auto max-w-7xl px-6">
-        <h2 className="text-center text-5xl font-bold text-sky-900">
+        <h2 className="text-center text-4xl font-bold text-sky-900">
           Рішення для об'єктів
         </h2>
 

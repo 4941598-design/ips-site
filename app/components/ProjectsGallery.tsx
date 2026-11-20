@@ -1,7 +1,7 @@
 export default function ProjectsGallery() {
   return (
     <section className="bg-slate-50 py-32">
-      <div className="mx-auto w-full max-w-screen-2xl px-6">
+      <div className="mx-auto max-w-7xl px-6">
         <h2 className="mx-auto text-center text-5xl font-bold text-sky-900">
           Реалізовані проєкти
         </h2>
