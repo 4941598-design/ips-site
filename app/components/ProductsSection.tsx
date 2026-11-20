@@ -33,8 +33,8 @@ export default function ProductsSection() {
   ];
 
   return (
-    <section className="bg-slate-50 py-28">
-      <div className="mx-auto max-w-screen-2xl px-6">
+    <section className="bg-slate-50 py-36">
+      <div className="mx-auto max-w-7xl px-6">
         <h2 className="text-center text-5xl font-bold text-sky-900">
           Популярні рішення
         </h2>
@@ -43,7 +43,7 @@ export default function ProductsSection() {
           Найпопулярніші системи для акустики, освітлення та стельових рішень
         </p>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {products.map((product) => (
             <div
               key={product.name}
