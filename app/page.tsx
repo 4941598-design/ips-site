@@ -6,9 +6,7 @@ import ProjectsGallery from "./components/ProjectsGallery";
 export default function HomePage() {
   return (
     <main>
-      <h1 className="text-center text-8xl text-red-600">
-  TEST PAGE TSX
-</h1>
+      
       <section
         className="relative overflow-hidden text-white"
         style={{
