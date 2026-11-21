@@ -3,7 +3,7 @@ export default function AboutPage() {
     <main className="bg-white">
       {/* Hero */}
       <section className="bg-slate-900 text-white">
-        <div className="mx-auto max-w-6xl px-6 py-24">
+        <div className="mx-auto max-w-7xl px-6 py-24">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
             Працюємо з 1997 року
           </p>
@@ -23,8 +23,8 @@ export default function AboutPage() {
 
       {/* Основний блок */}
       <section className="py-24">
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="grid items-center gap-16 lg:grid-cols-2">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="mx-auto grid max-w-6xl items-center gap-20 lg:grid-cols-2">
             <div>
               <img
                 src="/images/projects/office-01.jpg"
@@ -55,7 +55,7 @@ export default function AboutPage() {
                 <div>✓ Технічна підтримка проєктів</div>
               </div>
 
-              <button className="mt-10 rounded-2xl bg-sky-800 px-8 py-4 font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-sky-900">
+              <button className="mt-10 rounded-2xl bg-sky-800 px-10 py-5 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-sky-900">
                 Зв'язатися з нами
               </button>
             </div>
@@ -101,8 +101,8 @@ export default function AboutPage() {
             функціональні та довговічні простори.
           </p>
 
-          <div className="mt-16 grid gap-8 md:grid-cols-3">
-            <div className="rounded-3xl border border-slate-200 bg-white p-10 shadow-xl">
+          <div className="mx-auto mt-16 grid max-w-6xl gap-8 md:grid-cols-3">
+            <div className="rounded-3xl border border-slate-200 bg-white p-10 shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <h3 className="text-2xl font-bold text-sky-900">
                 Досвід
               </h3>
@@ -113,7 +113,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="rounded-3xl border border-slate-200 bg-white p-10 shadow-xl">
+            <div className="rounded-3xl border border-slate-200 bg-white p-10 shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <h3 className="text-2xl font-bold text-sky-900">
                 Експертність
               </h3>
@@ -124,7 +124,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="rounded-3xl border border-slate-200 bg-white p-10 shadow-xl">
+            <div className="rounded-3xl border border-slate-200 bg-white p-10 shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <h3 className="text-2xl font-bold text-sky-900">
                 Надійність
               </h3>
@@ -132,6 +132,62 @@ export default function AboutPage() {
               <p className="mt-4 leading-7 text-slate-600">
                 Працюємо з перевіреними брендами та рішеннями, що
                 забезпечують довговічність і комфорт експлуатації.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Наші бренди */}
+      <section className="bg-slate-50 py-24">
+        <div className="mx-auto max-w-6xl px-6">
+          <h2 className="text-center text-4xl font-bold text-sky-900">
+            Наші бренди
+          </h2>
+
+          <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-600">
+            Працюємо з перевіреними світовими виробниками стельових систем,
+            акустичних рішень та оздоблювальних матеріалів.
+          </p>
+
+          <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-3xl bg-white p-10 text-center shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <h3 className="text-2xl font-bold text-sky-900">
+                ROCKFON
+              </h3>
+
+              <p className="mt-4 text-slate-600">
+                Акустичні та стельові системи
+              </p>
+            </div>
+
+            <div className="rounded-3xl bg-white p-10 text-center shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <h3 className="text-2xl font-bold text-sky-900">
+                HERADESIGN
+              </h3>
+
+              <p className="mt-4 text-slate-600">
+                Панелі з деревного волокна
+              </p>
+            </div>
+
+            <div className="rounded-3xl bg-white p-10 text-center shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <h3 className="text-2xl font-bold text-sky-900">
+                CLIP-IN
+              </h3>
+
+              <p className="mt-4 text-slate-600">
+                Металеві стельові системи
+              </p>
+            </div>
+
+            <div className="rounded-3xl bg-white p-10 text-center shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <h3 className="text-2xl font-bold text-sky-900">
+                KRAFT MESH
+              </h3>
+
+              <p className="mt-4 text-slate-600">
+                Архітектурні металеві сітки
               </p>
             </div>
           </div>
