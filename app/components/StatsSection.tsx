@@ -1,8 +1,8 @@
 export default function StatsSection() {
   return (
-    <section className="bg-white py-24">
-      <div className="mx-auto max-w-6xl px-6">
-        <div className="grid gap-12 text-center md:grid-cols-3">
+    <section className="bg-white pt-16 pb-6">
+      <div className="flex justify-center px-6">
+        <div className="grid w-full max-w-[1180px] gap-12 text-center md:grid-cols-3">
           <div>
             <div className="text-6xl font-bold text-sky-900">
               25+
