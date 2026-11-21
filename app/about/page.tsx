@@ -193,6 +193,29 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      {/* CTA */}
+<section className="bg-sky-900 py-24 text-white">
+  <div className="mx-auto max-w-4xl px-6 text-center">
+    <h2 className="text-4xl font-bold">
+      Готові обговорити ваш проєкт?
+    </h2>
+
+    <p className="mt-6 text-lg text-slate-200">
+      Допоможемо підібрати оптимальні стельові,
+      акустичні та освітлювальні рішення для вашого об'єкта.
+    </p>
+
+    <div className="mt-10 flex flex-wrap justify-center gap-6">
+      <button className="rounded-2xl bg-amber-500 px-10 py-5 text-lg font-bold text-slate-900 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-amber-400">
+        Отримати консультацію
+      </button>
+
+      <button className="rounded-2xl border-2 border-white px-10 py-5 text-lg font-bold transition-all duration-300 hover:bg-white hover:text-slate-900">
+        Надіслати проєкт
+      </button>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
