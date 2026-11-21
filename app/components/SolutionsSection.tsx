@@ -3,32 +3,26 @@ export default function SolutionsSection() {
     {
       title: "Лікарні",
       description: "Гігієнічні стелі та медичні рішення",
-      color: "bg-sky-100",
     },
     {
       title: "Офіси",
       description: "Акустичний комфорт та продуктивність",
-      color: "bg-emerald-100",
     },
     {
       title: "Освіта",
       description: "Комфортне середовище для навчання",
-      color: "bg-amber-100",
     },
     {
       title: "Ресторани",
       description: "Акустика та атмосфера",
-      color: "bg-rose-100",
     },
     {
       title: "ТРЦ",
       description: "Металеві стельові системи",
-      color: "bg-violet-100",
     },
     {
       title: "Архітекторам",
       description: "Документація та технічна підтримка",
-      color: "bg-cyan-100",
     },
   ];
 
@@ -44,16 +38,12 @@ export default function SolutionsSection() {
         </p>
 
         <div className="mt-16 flex justify-center">
-          <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
             {solutions.map((solution) => (
               <div
                 key={solution.title}
-                className="group w-[380px] rounded-3xl border border-slate-200 bg-white p-10 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-sky-300 hover:shadow-2xl"
+                className="group w-[380px] rounded-3xl border border-slate-200 bg-white p-10 shadow-lg transition-all duration-500 hover:-translate-y-4 hover:border-sky-300 hover:shadow-2xl"
               >
-                <div
-                  className={`mb-5 h-12 w-12 rounded-xl ${solution.color}`}
-                />
-
                 <h3 className="text-2xl font-bold text-sky-900">
                   {solution.title}
                 </h3>
@@ -61,6 +51,13 @@ export default function SolutionsSection() {
                 <p className="mt-4 leading-7 text-slate-600">
                   {solution.description}
                 </p>
+
+                <div className="mt-6 flex items-center font-semibold text-sky-700">
+                  Детальніше
+                  <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">
+                    →
+                  </span>
+                </div>
               </div>
             ))}
           </div>
