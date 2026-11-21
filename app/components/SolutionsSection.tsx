@@ -33,8 +33,8 @@ export default function SolutionsSection() {
   ];
 
   return (
-    <section className="bg-white py-36">
-      <div className="mx-auto max-w-7xl px-6">
+    <section className="bg-white py-56">
+      <div className="mx-auto max-w-screen-2xl px-6">
         <h2 className="text-center text-4xl font-bold text-sky-900">
           Рішення для об'єктів
         </h2>
@@ -43,27 +43,27 @@ export default function SolutionsSection() {
           Підбираємо оптимальні рішення для різних типів просторів
         </p>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {solutions.map((solution) => (
-            <div
-              key={solution.title}
-             className="group rounded-3xl border border-slate-200 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
-            >
+        <div className="mt-16 flex justify-center">
+          <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3">
+            {solutions.map((solution) => (
               <div
-                className={`mb-5 h-12 w-12 rounded-xl ${solution.color}`}
-              />
+                key={solution.title}
+                className="group w-[380px] rounded-3xl border border-slate-200 bg-white p-10 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-sky-300 hover:shadow-2xl"
+              >
+                <div
+                  className={`mb-5 h-12 w-12 rounded-xl ${solution.color}`}
+                />
 
-              <h3 className="text-2xl font-bold text-sky-900">
-                {solution.title}
-              </h3>
+                <h3 className="text-2xl font-bold text-sky-900">
+                  {solution.title}
+                </h3>
 
-              <p className="mt-4 leading-7 text-slate-600">
-                {solution.description}
-              </p>
-
-              
-            </div>
-          ))}
+                <p className="mt-4 leading-7 text-slate-600">
+                  {solution.description}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
