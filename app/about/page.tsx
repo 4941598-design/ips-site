@@ -13,7 +13,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="mx-auto mt-8 max-w-4xl text-xl text-slate-300">
-            IPS (Buddecor) — постачальник комплексних рішень у сфері
+            IPS  — постачальник комплексних рішень у сфері
             стельових систем, архітектурної акустики та освітлення для
             лікарень, офісів, освітніх закладів, ресторанів і торговельних
             центрів.
@@ -28,14 +28,14 @@ export default function AboutPage() {
             <div>
               <img
   src="/images/projects/office-01.jpg"
-  alt="IPS Buddecor"
+  alt="IPS"
   className="w-full rounded-3xl shadow-2xl max-h-[520px] object-cover"
 />
             </div>
 
             <div>
               <p className="font-semibold uppercase tracking-[0.2em] text-sky-700">
-                IPS | BUDDECOR
+                IPS 
               </p>
 
               <h2 className="mt-4 text-4xl font-bold text-sky-900">

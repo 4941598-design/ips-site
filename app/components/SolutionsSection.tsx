@@ -33,7 +33,7 @@ export default function SolutionsSection() {
           Рішення для об'єктів
         </h2>
 
-        <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-600">
+        <p className="mx-auto mt-4 max-w-4xl text-center text-lg text-slate-600">
           Підбираємо оптимальні рішення для різних типів просторів
         </p>
 

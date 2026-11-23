@@ -20,19 +20,27 @@ export default function HomePage() {
         <div className="relative z-10 w-full px-6">
           <div className="flex min-h-[50vh] items-center justify-center">
             <div className="mx-auto max-w-5xl text-center">
-              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-200">
-                Працюємо з 1997 року
-              </p>
+              <p className="mb-20 text-xs font-semibold uppercase tracking-[0.5em] text-slate-300">
+  Працюємо з 1997 року
+</p>
 
-              <h1 className="mt-6 text-4xl font-bold leading-tight lg:text-6xl">
+<div className="mt-8 flex justify-center">
+  <img
+    src="/images/logo/ips-buddecor-logo.png"
+    alt="IPS"
+    className="h-48 w-auto lg:h-64"
+  />
+</div>
+
+              {/*<h1 className="mt-6 text-4xl font-bold leading-tight lg:text-6xl">
                 Стелі.
                 <br />
                 Акустика.
                 <br />
                 Освітлення.
-              </h1>
+              </h1>*/}
 
-              <p className="mx-auto mt-8 max-w-3xl text-xl text-slate-200">
+              <p className="mx-auto mt-10 max-w-4xl text-xl leading-9 text-slate-200">
                 Комплексні рішення для лікарень, офісів,
                 навчальних закладів, ресторанів та ТРЦ.
               </p>
@@ -57,7 +65,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <StatsSection />
+      <StatsSection /> 
 
 
 

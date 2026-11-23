@@ -15,7 +15,7 @@ export default function ContactsPage() {
         </p>
 
         <p>
-          Buddecor / IPS
+          Адреса: м. Київ
         </p>
       </div>
     </main>

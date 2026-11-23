@@ -1,6 +1,6 @@
 export default function ProjectsGallery() {
   return (
-    <section className="bg-slate-50 pt-12 pb-32">
+    <section className="bg-slate-50 pt-24 pb-32">
       <div className="mx-auto max-w-screen-2xl px-6">
         <h2 className="text-center text-5xl font-bold text-sky-900">
           Реалізовані проєкти

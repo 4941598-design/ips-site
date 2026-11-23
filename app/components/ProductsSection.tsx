@@ -30,25 +30,41 @@ export default function ProductsSection() {
       type: "Архітектурна металева сітка",
       color: "bg-cyan-100",
     },
+    {
+      name: "Kraft GLK",
+      type: "Металева касетна стельова система",
+      color: "bg-orange-100",
+    },
+    {
+      name: "Kraft Рейкові стелі",
+      type: "Сучасні рейкові стелі для громадських просторів",
+      color: "bg-orange-200",
+    },
+    {
+      name: "KRAFT LED",
+      type: "Інтегровані освітлювальні рішення для стельових систем",
+      color: "bg-yellow-100",
+    },
   ];
 
   return (
-    <section className="bg-slate-50 py-56">
+    <section className="bg-slate-50 pt-20 pb-40">
       <div className="mx-auto max-w-screen-2xl px-6">
-        <h2 className="text-center text-4xl font-bold text-sky-900">
-          Популярні рішення
-        </h2>
+  <h2 className="text-center text-4xl font-bold text-sky-900">
+    Популярні рішення
+  </h2>
 
-        <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-600">
-          Найпопулярніші системи для акустики, освітлення та стельових рішень
-        </p>
+  <p className="mx-auto mt-4 max-w-4xl text-center text-lg text-slate-600">
+    Найпопулярніші системи для акустики, освітлення та стельових рішень
+  </p>
+
 
         <div className="mt-16 flex justify-center">
-          <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3">
+  <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3">
             {products.map((product) => (
               <div
                 key={product.name}
-                className="group w-[380px] rounded-3xl border border-slate-200 bg-white p-10 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-sky-300 hover:shadow-2xl"
+                className="group w-[380px] min-h-[180px] rounded-3xl border border-slate-200 bg-white p-10 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-sky-300 hover:shadow-2xl"
               >
                 <div
                   className={`mb-5 h-12 w-12 rounded-xl ${product.color}`}
@@ -61,6 +77,10 @@ export default function ProductsSection() {
                 <p className="mt-4 leading-7 text-slate-600">
                   {product.type}
                 </p>
+
+                <div className="mt-6 font-semibold text-sky-700">
+                  Детальніше →
+                </div>
               </div>
             ))}
           </div>
