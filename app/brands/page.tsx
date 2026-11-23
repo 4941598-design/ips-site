@@ -36,7 +36,7 @@ export default function BrandsPage() {
       <section className="bg-slate-900 py-32 text-white">
         <div className="mx-auto max-w-screen-2xl px-8 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-amber-400">
-            ПАРТНЕРИ IPS | BUDDECOR
+            ПАРТНЕРИ IPS 
           </p>
 
           <h1 className="mt-4 text-6xl font-bold lg:text-8xl">

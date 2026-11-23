@@ -50,7 +50,7 @@ export default function AboutPage() {
 
               <div className="mt-8 space-y-4 text-lg text-slate-700">
                 <div>✓ 25+ років досвіду</div>
-                <div>✓ 1000+ реалізованих проєктів</div>
+                <div>✓ 700+ реалізованих проєктів</div>
                 <div>✓ Лікарні, офіси, освіта, ресторани та ТРЦ</div>
                 <div>✓ Технічна підтримка проєктів</div>
               </div>
