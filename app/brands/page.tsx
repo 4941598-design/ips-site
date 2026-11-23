@@ -33,17 +33,17 @@ export default function BrandsPage() {
   return (
     <main className="bg-white">
       {/* Hero */}
-      <section className="bg-slate-900 py-32 text-white">
-        <div className="mx-auto max-w-screen-2xl px-8 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.35em] text-amber-400">
-            ПАРТНЕРИ IPS 
+      <section className="bg-slate-900 py-16 text-white">
+        <div className="mx-auto max-w-screen-xl px-6 text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-400">
+            ПАРТНЕРИ IPS
           </p>
 
-          <h1 className="mt-4 text-6xl font-bold lg:text-8xl">
+          <h1 className="mt-3 text-4xl font-bold lg:text-5xl">
             Бренди
           </h1>
 
-          <p className="mx-auto mt-8 max-w-4xl text-xl text-slate-300">
+          <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-300">
             Ми співпрацюємо з провідними європейськими виробниками
             стельових систем, архітектурної акустики та спеціалізованих
             рішень для громадських просторів.
@@ -52,44 +52,44 @@ export default function BrandsPage() {
       </section>
 
       {/* Brands */}
-      <section className="py-28">
-        <div className="mx-auto max-w-screen-2xl px-8">
-          <div className="grid gap-10 md:grid-cols-2">
+      <section className="py-12">
+        <div className="mx-auto max-w-screen-2xl px-6">
+          <div className="grid gap-8 md:grid-cols-2">
             {brands.map((brand) => (
               <article
-                key={brand.name}
-                className="rounded-3xl border border-slate-200 bg-white p-12 shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
-              >
-                <div className="flex h-72 items-center justify-center overflow-hidden rounded-2xl bg-slate-50 p-8">
+  key={brand.name}
+  className="flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+>
+                <div className="flex h-32 items-center justify-center overflow-hidden rounded-2xl bg-slate-50 p-4">
                   <img
   src={brand.logo}
   alt={brand.name}
   className={
     brand.name === "Knauf Ceiling Solutions"
-      ? "max-h-44 w-auto object-contain"
+      ? "max-h-28 w-auto object-contain"
       : brand.name === "Heradesign"
-      ? "max-h-52 w-auto scale-[2.2] object-contain"
+  ? "max-h-24 w-auto scale-[1.8] object-contain"
       : brand.name === "Kraft"
-      ? "max-h-52 w-auto scale-[2.2] object-contain"
+  ? "max-h-24 w-auto scale-[1.8] object-contain"
       : brand.name === "Rockfon"
-      ? "max-h-40 w-auto scale-125 object-contain"
-      : "max-h-40 w-auto object-contain"
+      ? "max-h-24 w-auto scale-125 object-contain"
+      : "max-h-24 w-auto object-contain"
   }
 />
                 </div>
 
-                <h2 className="mt-10 text-4xl font-bold text-sky-900">
+                <h2 className="mt-6 text-2xl font-bold text-sky-900">
                   {brand.name}
                 </h2>
 
-                <p className="mt-5 text-lg leading-8 text-slate-600">
+                <p className="mt-3 text-base leading-7 text-slate-600">
                   {brand.description}
                 </p>
 
                 <a
-                  href={brand.link}
-                  className="mt-8 inline-flex rounded-xl bg-sky-900 px-6 py-4 font-semibold text-white transition-all duration-300 hover:bg-sky-800"
-                >
+  href={brand.link}
+  className="mt-4 inline-flex w-fit rounded-xl bg-sky-900 px-5 py-3 font-semibold text-white transition-all duration-300 hover:bg-sky-800"
+>
                   Детальніше
                 </a>
               </article>
@@ -99,13 +99,13 @@ export default function BrandsPage() {
       </section>
 
       {/* CTA */}
-      <section className="mt-32 bg-sky-900 py-28 text-white">
-        <div className="mx-auto max-w-5xl px-6 text-center">
-          <h2 className="text-5xl font-bold">
+      <section className="mt-10 bg-sky-900 py-10 text-white">
+        <div className="mx-auto max-w-4xl px-6 text-center">
+          <h2 className="text-2xl font-bold lg:text-3xl">
             Допоможемо підібрати бренд під ваш проєкт
           </h2>
 
-          <p className="mt-8 text-xl text-slate-200">
+          <p className="mx-auto mt-5 max-w-3xl text-lg text-slate-200">
             Консультуємо щодо вибору акустичних, стельових та архітектурних
             рішень для офісів, медичних закладів, освітніх установ та
             комерційних просторів.
@@ -113,7 +113,7 @@ export default function BrandsPage() {
 
           <a
             href="/contacts"
-            className="mt-12 inline-flex rounded-2xl bg-amber-500 px-10 py-5 text-lg font-bold text-slate-900 transition-all duration-300 hover:-translate-y-1 hover:bg-amber-400"
+            className="mt-8 inline-flex rounded-2xl bg-amber-500 px-8 py-4 text-lg font-bold text-slate-900 transition-all duration-300 hover:-translate-y-1 hover:bg-amber-400"
           >
             Отримати консультацію
           </a>
