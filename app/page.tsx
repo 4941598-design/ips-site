@@ -66,14 +66,9 @@ export default function HomePage() {
       </section>
 
       <StatsSection /> 
-
-
-
-<ProjectsGallery />
-
 <SolutionsSection />
-
 <ProductsSection />
+<ProjectsGallery />
     </main>
   );
 }

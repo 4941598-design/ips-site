@@ -2,52 +2,58 @@ export default function SolutionsSection() {
   const solutions = [
     {
       title: "Медичні заклади",
-      description: "Гігієнічні стелі та спеціалізовані рішення для лікарень і медичних центрів.",
+      description:
+        "Гігієнічні стелі та спеціалізовані рішення для лікарень і медичних центрів.",
       image: "/images/solutions/medical-solution.jpg",
     },
     {
       title: "Офісні простори",
-      description: "Акустичний комфорт, продуктивність та сучасний дизайн робочого середовища.",
+      description:
+        "Акустичний комфорт, продуктивність та сучасний дизайн робочого середовища.",
       image: "/images/solutions/office-solution.jpg",
     },
     {
       title: "Освітні установи",
-      description: "Комфортне середовище для навчання, концентрації та спілкування.",
-      image: "/images/solutions/education.jpg",
+      description:
+        "Комфортне середовище для навчання, концентрації та спілкування.",
+      image: "/images/solutions/education-solution.jpg",
     },
     {
       title: "Ресторанний бізнес",
-      description: "Стелі й акустика для затишної атмосфери та якісного сервісу.",
+      description:
+        "Стелі й акустика для затишної атмосфери та якісного сервісу.",
       image: "/images/solutions/restaurant.jpg",
     },
     {
       title: "Торгові центри",
-      description: "Металеві та дизайнерські стельові системи для громадських просторів.",
+      description:
+        "Металеві та дизайнерські стельові системи для громадських просторів.",
       image: "/images/solutions/mall.jpg",
     },
     {
       title: "Архітекторам і дизайнерам",
-      description: "Технічна підтримка, BIM-моделі, специфікації та консультації.",
+      description:
+        "Технічна підтримка, BIM-моделі, специфікації та консультації.",
       image: "/images/solutions/architect.jpg",
     },
   ];
 
   return (
-    <section className="bg-slate-50 py-32">
+    <section className="bg-slate-50 py-24">
       <div className="mx-auto max-w-screen-2xl px-6">
-        <h2 className="text-center text-3xl font-bold text-sky-900 lg:text-4xl">
+        <h2 className="text-center text-4xl font-bold text-sky-900">
           Рішення для об'єктів
         </h2>
 
-        <p className="mx-auto mt-3 max-w-2xl text-center text-base text-slate-600">
+        <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-slate-600">
           Підбираємо оптимальні рішення для різних типів просторів
         </p>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {solutions.map((solution) => (
             <article
               key={solution.title}
-              className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+              className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
             >
               <img
                 src={solution.image}
@@ -66,7 +72,9 @@ export default function SolutionsSection() {
 
                 <div className="mt-5 flex items-center font-semibold text-sky-700">
                   Детальніше
-                  <span className="ml-2">→</span>
+                  <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">
+                    →
+                  </span>
                 </div>
               </div>
             </article>
