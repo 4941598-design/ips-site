@@ -41,13 +41,13 @@ export default function SolutionsSection() {
   return (
     <section className="bg-slate-50 py-24">
       <div className="mx-auto max-w-screen-2xl px-6">
-        <h2 className="text-center text-4xl font-bold text-sky-900">
+        <h2 className="text-center text-5xl font-bold text-sky-900">
           Рішення для об'єктів
         </h2>
 
-        <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-slate-600">
-          Підбираємо оптимальні рішення для різних типів просторів
-        </p>
+        <p className="mt-4 text-center text-lg text-slate-600">
+  Підбираємо оптимальні рішення для різних типів просторів
+</p>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {solutions.map((solution) => (

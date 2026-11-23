@@ -54,7 +54,7 @@ export default function ProductsSection() {
     Популярні рішення
   </h2>
 
-  <p className="mx-auto mt-4 max-w-4xl text-center text-lg text-slate-600">
+  <p className="mx-auto mt-4 max-w-4xl text-center text-lg text-slate-700 font-medium">
     Найпопулярніші системи для акустики, освітлення та стельових рішень
   </p>
 
