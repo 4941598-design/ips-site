@@ -16,7 +16,7 @@ export default function SolutionsSection() {
       title: "Освітні установи",
       description:
         "Комфортне середовище для навчання, концентрації та спілкування.",
-      image: "/images/solutions/education.jpg",
+      image: "/images/solutions/education-solution.jpg",
     },
     {
       title: "Ресторанний бізнес",
