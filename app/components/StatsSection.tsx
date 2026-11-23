@@ -13,11 +13,11 @@ export default function SolutionsSection() {
       image: "/images/solutions/office-solution.jpg",
     },
     {
-      title: "Освітні установи",
-      description:
-        "Комфортне середовище для навчання, концентрації та спілкування.",
-      image: "/images/solutions/education-solution.jpg",
-    },
+  title: "Освітні установи",
+  description:
+    "Комфортне середовище для навчання, концентрації та спілкування.",
+  image: "/images/solutions/education-solution.jpg",
+},
     {
       title: "Ресторанний бізнес",
       description:
