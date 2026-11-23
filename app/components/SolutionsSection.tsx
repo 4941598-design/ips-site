@@ -1,66 +1,76 @@
 export default function SolutionsSection() {
   const solutions = [
     {
-      title: "Лікарні",
-      description: "Гігієнічні стелі та медичні рішення",
+      title: "Медичні заклади",
+      description: "Гігієнічні стелі та спеціалізовані рішення для лікарень і медичних центрів.",
+      image: "/images/solutions/medical-solution.jpg",
     },
     {
-      title: "Офіси",
-      description: "Акустичний комфорт та продуктивність",
+      title: "Офісні простори",
+      description: "Акустичний комфорт, продуктивність та сучасний дизайн робочого середовища.",
+      image: "/images/solutions/office-solution.jpg",
     },
     {
-      title: "Освіта",
-      description: "Комфортне середовище для навчання",
+      title: "Освітні установи",
+      description: "Комфортне середовище для навчання, концентрації та спілкування.",
+      image: "/images/solutions/education.jpg",
     },
     {
-      title: "Ресторани",
-      description: "Акустика та атмосфера",
+      title: "Ресторанний бізнес",
+      description: "Стелі й акустика для затишної атмосфери та якісного сервісу.",
+      image: "/images/solutions/restaurant.jpg",
     },
     {
-      title: "ТРЦ",
-      description: "Металеві стельові системи",
+      title: "Торгові центри",
+      description: "Металеві та дизайнерські стельові системи для громадських просторів.",
+      image: "/images/solutions/mall.jpg",
     },
     {
-      title: "Архітекторам",
-      description: "Документація та технічна підтримка",
+      title: "Архітекторам і дизайнерам",
+      description: "Технічна підтримка, BIM-моделі, специфікації та консультації.",
+      image: "/images/solutions/architect.jpg",
     },
   ];
 
   return (
-    <section className="bg-white py-56">
+    <section className="bg-slate-50 py-32">
       <div className="mx-auto max-w-screen-2xl px-6">
-        <h2 className="text-center text-4xl font-bold text-sky-900">
+        <h2 className="text-center text-3xl font-bold text-sky-900 lg:text-4xl">
           Рішення для об'єктів
         </h2>
 
-        <p className="mx-auto mt-4 max-w-4xl text-center text-lg text-slate-600">
+        <p className="mx-auto mt-3 max-w-2xl text-center text-base text-slate-600">
           Підбираємо оптимальні рішення для різних типів просторів
         </p>
 
-        <div className="mt-16 flex justify-center">
-          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-            {solutions.map((solution) => (
-              <div
-                key={solution.title}
-                className="group w-[380px] rounded-3xl border border-slate-200 bg-white p-10 shadow-lg transition-all duration-500 hover:-translate-y-4 hover:border-sky-300 hover:shadow-2xl"
-              >
-                <h3 className="text-2xl font-bold text-sky-900">
+        <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {solutions.map((solution) => (
+            <article
+              key={solution.title}
+              className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+            >
+              <img
+                src={solution.image}
+                alt={solution.title}
+                className="h-44 w-full object-cover"
+              />
+
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-sky-900">
                   {solution.title}
                 </h3>
 
-                <p className="mt-4 leading-7 text-slate-600">
+                <p className="mt-3 text-sm leading-6 text-slate-600">
                   {solution.description}
                 </p>
 
-                <div className="mt-6 flex items-center font-semibold text-sky-700">
+                <div className="mt-5 flex items-center font-semibold text-sky-700">
                   Детальніше
-                  <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">
-                    →
-                  </span>
+                  <span className="ml-2">→</span>
                 </div>
               </div>
-            ))}
-          </div>
+            </article>
+          ))}
         </div>
       </div>
     </section>
