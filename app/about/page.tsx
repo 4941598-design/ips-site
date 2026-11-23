@@ -73,7 +73,7 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <div className="text-6xl font-bold text-sky-900">1000+</div>
+              <div className="text-6xl font-bold text-sky-900">700+</div>
               <p className="mt-3 text-slate-600">
                 реалізованих проєктів
               </p>

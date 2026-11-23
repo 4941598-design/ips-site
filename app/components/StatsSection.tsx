@@ -5,7 +5,7 @@ export default function StatsSection() {
       label: "років досвіду",
     },
     {
-      value: "1000+",
+      value: "700+",
       label: "реалізованих проєктів",
     },
     {
