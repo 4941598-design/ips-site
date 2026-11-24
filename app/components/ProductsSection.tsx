@@ -48,23 +48,24 @@ export default function ProductsSection() {
   ];
 
   return (
-    <section className="bg-slate-50 pt-20 pb-40">
+    <section className="bg-slate-50 py-24">
       <div className="mx-auto max-w-screen-2xl px-6">
-  <h2 className="text-center text-4xl font-bold text-sky-900">
-    Популярні рішення
-  </h2>
+        <h2 className="text-center text-5xl font-bold text-sky-900">
+          Популярні рішення
+        </h2>
 
-  <p className="mx-auto mt-4 max-w-4xl text-center text-lg text-slate-700 font-medium">
-    Найпопулярніші системи для акустики, освітлення та стельових рішень
-  </p>
+        <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-600 relative left-100">
+  Найпопулярніші системи для акустики,
+  <br />
+  освітлення та стельових рішень
+</p>
 
-
-        <div className="mt-16 flex justify-center">
-  <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-14 flex justify-center">
+          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
             {products.map((product) => (
-              <div
+              <article
                 key={product.name}
-                className="group w-[380px] min-h-[180px] rounded-3xl border border-slate-200 bg-white p-10 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-sky-300 hover:shadow-2xl"
+                className="group w-[380px] min-h-[180px] rounded-3xl border border-slate-200 bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
               >
                 <div
                   className={`mb-5 h-12 w-12 rounded-xl ${product.color}`}
@@ -74,14 +75,14 @@ export default function ProductsSection() {
                   {product.name}
                 </h3>
 
-                <p className="mt-4 leading-7 text-slate-600">
+                <p className="mt-3 leading-7 text-slate-600">
                   {product.type}
                 </p>
 
                 <div className="mt-6 font-semibold text-sky-700">
                   Детальніше →
                 </div>
-              </div>
+              </article>
             ))}
           </div>
         </div>
