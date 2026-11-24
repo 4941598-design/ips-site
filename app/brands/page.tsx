@@ -33,23 +33,25 @@ export default function BrandsPage() {
   return (
     <main className="bg-white">
       {/* Hero */}
-      <section className="bg-slate-900 py-16 text-white">
-        <div className="mx-auto max-w-screen-xl px-6 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-400">
-            ПАРТНЕРИ IPS
-          </p>
+<section className="bg-slate-900 py-32 text-white">
+  <div className="mx-auto max-w-5xl px-6">
+    <div className="flex flex-col items-center text-center">
+      <p className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-400">
+        ПАРТНЕРИ IPS
+      </p>
 
-          <h1 className="mt-3 text-4xl font-bold lg:text-5xl">
-            Бренди
-          </h1>
+      <h1 className="mt-3 text-5xl font-bold lg:text-6xl">
+        Бренди
+      </h1>
 
-          <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-300">
-            Ми співпрацюємо з провідними європейськими виробниками
-            стельових систем, архітектурної акустики та спеціалізованих
-            рішень для громадських просторів.
-          </p>
-        </div>
-      </section>
+      <p className="mt-6 max-w-3xl text-center text-lg leading-8 text-slate-300">
+        Ми співпрацюємо з провідними європейськими виробниками
+        стельових систем, архітектурної акустики та спеціалізованих
+        рішень для громадських просторів.
+      </p>
+    </div>
+  </div>
+</section>
 
       {/* Brands */}
       <section className="py-12">
@@ -58,8 +60,8 @@ export default function BrandsPage() {
             {brands.map((brand) => (
               <article
   key={brand.name}
-  className="flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
->
+  className="flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+
                 <div className="flex h-32 items-center justify-center overflow-hidden rounded-2xl bg-slate-50 p-4">
                   <img
   src={brand.logo}
@@ -78,9 +80,7 @@ export default function BrandsPage() {
 />
                 </div>
 
-                <h2 className="mt-6 text-2xl font-bold text-sky-900">
-                  {brand.name}
-                </h2>
+                
 
                 <p className="mt-3 text-base leading-7 text-slate-600">
                   {brand.description}
@@ -88,10 +88,10 @@ export default function BrandsPage() {
 
                 <a
   href={brand.link}
-  className="mt-4 inline-flex w-fit rounded-xl bg-sky-900 px-5 py-3 font-semibold text-white transition-all duration-300 hover:bg-sky-800"
+  className="mt-6 inline-flex w-fit rounded-xl bg-sky-900 px-5 py-3 font-semibold text-white transition-all duration-300 hover:bg-sky-800"
 >
-                  Детальніше
-                </a>
+  Детальніше
+</a>
               </article>
             ))}
           </div>
