@@ -26,9 +26,9 @@ export default function HomePage() {
 
 <div className="mt-8 flex justify-center">
   <img
-    src="/images/logo/ips-buddecor-logo.png"
+    src="/images/logo/ips-logo-full.jpg"
     alt="IPS"
-    className="h-48 w-auto lg:h-64"
+    className="h-32 w-auto lg:h-40"
   />
 </div>
 

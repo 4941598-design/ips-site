@@ -3,16 +3,16 @@ export default function AboutPage() {
     <main className="bg-white">
       {/* Hero */}
       <section className="bg-slate-900 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-24 text-center">
+        <div className="mx-auto max-w-7xl px-6 py-20 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
             Працюємо з 1997 року
           </p>
 
-          <h1 className="mt-6 text-5xl font-bold lg:text-7xl">
+          <h1 className="mt-4 text-4xl font-bold lg:text-6xl">
             Про компанію
           </h1>
 
-          <p className="mx-auto mt-8 max-w-4xl text-xl text-slate-300">
+          <p className="mx-auto mt-8 max-w-5xl text-xl text-slate-300">
             IPS  — постачальник комплексних рішень у сфері
             стельових систем, архітектурної акустики та освітлення для
             лікарень, офісів, освітніх закладів, ресторанів і торговельних
@@ -23,24 +23,21 @@ export default function AboutPage() {
 
       {/* Основний блок */}
       <section className="py-24">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="grid items-center gap-20 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="mx-auto max-w-2xl px-6">
+          <div className="grid items-center gap-16 lg:grid-cols-[0.7fr_1.3fr]">
             <div>
               <img
   src="/images/projects/office-01.jpg"
   alt="IPS"
-  className="w-full rounded-3xl shadow-2xl max-h-[520px] object-cover"
+  className="rounded-3xl bg-white p-8 shadow-lg min-h-[220px]"
 />
+
             </div>
 
-            <div>
-              <p className="font-semibold uppercase tracking-[0.2em] text-sky-700">
-                IPS 
-              </p>
-
-              <h2 className="mt-4 text-4xl font-bold text-sky-900">
-                Понад 25 років створюємо комфортні простори
-              </h2>
+<div>
+  <h2 className="mt-4 text-4xl font-bold text-sky-900">
+    Понад 25 років створюємо комфортні простори
+  </h2>
 
               <p className="mt-6 text-lg leading-8 text-slate-600">
                 Ми працюємо з провідними виробниками стельових систем,
@@ -55,7 +52,7 @@ export default function AboutPage() {
                 <div>✓ Технічна підтримка проєктів</div>
               </div>
 
-              <button className="mt-10 rounded-2xl bg-sky-800 px-10 py-5 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-sky-900">
+              <button className="mt-10 rounded-2xl bg-sky-800 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-sky-900">
                 Зв'язатися з нами
               </button>
             </div>
@@ -80,10 +77,10 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <div className="text-6xl font-bold text-sky-900">3</div>
-              <p className="mt-3 text-slate-600">
-                ключові напрямки
-              </p>
+              <div className="text-6xl font-bold text-sky-900">4</div>
+<p className="mt-3 text-slate-600">
+  провідні бренди
+</p>
             </div>
           </div>
         </div>
@@ -112,8 +109,8 @@ export default function AboutPage() {
                 медицини, освіти, офісів та громадських просторів.
               </p>
             </div>
-
-            <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-xl">
+<div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-xl">
+            
               <h3 className="text-2xl font-bold text-sky-900">
                 Експертність
               </h3>
@@ -139,48 +136,54 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Наші партнери та бренди */}
-      <section className="bg-slate-50 py-24">
-        <div className="mx-auto max-w-5xl px-6">
-          <h2 className="text-center text-4xl font-bold text-sky-900">
-            Наші партнери та бренди
-          </h2>
+      {/* Наші бренди */}
+<section className="bg-slate-50 py-24">
+  <div className="mx-auto max-w-6xl px-6 text-center">
+    <h2 className="text-4xl font-bold text-sky-900">
+      Наші бренди
+    </h2>
 
-          <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-600">
-            Співпрацюємо з провідними світовими виробниками стельових
-            систем, архітектурної акустики, освітлення та оздоблювальних
-            матеріалів.
-          </p>
+    <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-600">
+      Співпрацюємо з провідними європейськими виробниками
+      стельових систем, архітектурної акустики та освітлення.
+    </p>
 
-          <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-3xl bg-white p-6 text-center shadow-xl">
-              <h3 className="text-lg font-bold text-sky-900">
-                ROCKFON
-              </h3>
-            </div>
+    <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+      <div className="rounded-3xl bg-white p-8 min-h-[220px] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+        <h3 className="text-2xl font-bold text-sky-900">
+          ROCKFON
+        </h3>
 
-            <div className="rounded-3xl bg-white p-6 text-center shadow-xl">
+        <p className="mt-3 text-slate-600">
+          Світовий виробник акустичних стельових систем та архітектурної акустики.
+        </p>
+      </div>
+
+            <div className="rounded-3xl bg-white p-8 min-h-[220px] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
               <h3 className="text-lg font-bold text-sky-900">
                 KNAUF CEILING SOLUTIONS
               </h3>
+              <p className="mt-3 text-slate-600">
+          AMF, Armstrong -професійні стельові рішення.
+        </p>
             </div>
 
-            <div className="rounded-3xl bg-white p-6 text-center shadow-xl">
+            <div className="rounded-3xl bg-white p-8 min-h-[220px] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
               <h3 className="text-lg font-bold text-sky-900">
                 HERADESIGN
               </h3>
-            </div>
+              <p className="mt-3 text-slate-600">
+          Панелі з деревного волокна для акустичного комфорту та сучасного дизайну.
+        </p>
+            </div>            
 
-            <div className="rounded-3xl bg-white p-6 text-center shadow-xl">
+            <div className="rounded-3xl bg-white p-8 min-h-[220px] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
               <h3 className="text-lg font-bold text-sky-900">
-                CLIP-IN
+                KRAFT 
               </h3>
-            </div>
-
-            <div className="rounded-3xl bg-white p-6 text-center shadow-xl">
-              <h3 className="text-lg font-bold text-sky-900">
-                KRAFT MESH
-              </h3>
+              <p className="mt-3 text-slate-600">
+          Архітектурні металеві стелі та дизайнерські рішення.
+        </p>
             </div>
           </div>
         </div>

@@ -4,10 +4,11 @@ export default function Footer() {
       <div className="mx-auto max-w-screen-2xl px-6 py-20">
         <div className="flex flex-col items-center text-center">
           <img
-            src="/images/logo/ips-buddecor-logo.png"
-            alt="IPS | BUDDECOR"
-            className="h-32 w-auto"
-          />
+  src="/images/logo/ips-logo-full.png"
+  alt="IPS"
+  className="h-48 w-auto"
+  loading="lazy"
+/>
 
           <h2 className="mt-8 text-4xl font-bold tracking-tight">
             IPS 
@@ -29,7 +30,7 @@ export default function Footer() {
           <div className="mt-12 h-px w-48 bg-slate-700" />
 
           <p className="mt-8 text-sm text-slate-500">
-            © {new Date().getFullYear()} IPS | BUDDECOR. Всі права захищені.
+            © {new Date().getFullYear()} IPS. Всі права захищені.
           </p>
         </div>
       </div>
