@@ -39,7 +39,7 @@ export default function SolutionsSection() {
   ];
 
   return (
-    <section className="bg-slate-50 pt-36 pb-24">
+    <section className="bg-slate-50 pt-32 pb-24">
       <div className="mx-auto max-w-screen-2xl px-6">
         <h2 className="text-center text-5xl font-bold text-sky-900">
           Рішення для об'єктів
