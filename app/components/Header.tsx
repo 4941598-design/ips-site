@@ -5,7 +5,7 @@ export default function Header() {
 
         <div className="flex items-center gap-4">
   <img
-  src="/images/logo/ips-logo-footer.JPG"
+  src="/images/logo/ips-logo-footer.jpg"
   alt="IPS"
   className="h-18 w-auto"
 />
