@@ -70,12 +70,7 @@ export default function SolutionsSection() {
                   {solution.description}
                 </p>
 
-                <div className="mt-5 flex items-center font-semibold text-sky-700">
-                  Детальніше
-                  <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">
-                    →
-                  </span>
-                </div>
+                
               </div>
             </article>
           ))}
