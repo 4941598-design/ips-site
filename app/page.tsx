@@ -19,7 +19,7 @@ export default function HomePage() {
 
         <div className="relative z-10 w-full px-6">
           <div className="flex min-h-[45vh] items-center justify-center">
-            <div className="mx-auto max-w-5xl text-center">
+            <div className="mx-auto max-w-4xl px-6 text-center xl:relative xl:left-96">
               <p className="mb-20 text-xs font-semibold uppercase tracking-[0.5em] text-slate-300">
   Працюємо з 1997 року
 </p>

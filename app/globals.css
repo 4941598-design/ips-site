@@ -38,4 +38,7 @@ button {
 section {
   width: 100%;
 }
-
+html,
+body {
+  overflow-x: hidden;
+}
