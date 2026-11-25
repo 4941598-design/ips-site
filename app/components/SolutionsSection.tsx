@@ -42,11 +42,11 @@ export default function SolutionsSection() {
     <section className="bg-slate-50 pt-32 pb-24">
       <div className="mx-auto max-w-screen-2xl px-6">
         <h2 className="text-center text-5xl font-bold text-sky-900">
-          Рішення для об'єктів
-        </h2>
+  Професійні рішення
+</h2>
 
         <p className="mt-4 text-center text-lg text-slate-600">
-  Підбираємо оптимальні рішення для різних типів просторів
+  Ідеї для комерційних, медичних та громадських просторів
 </p>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">

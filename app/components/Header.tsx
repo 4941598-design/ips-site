@@ -32,9 +32,7 @@ export default function Header() {
             Бренди
           </a>
 
-          <a href="/products" className="hover:text-sky-700">
-            Продукція
-          </a>
+          
 
           <a href="/projects" className="hover:text-sky-700">
             Проєкти
@@ -83,13 +81,7 @@ export default function Header() {
               Бренди
             </a>
 
-            <a
-              href="/products"
-              className="py-3"
-              onClick={() => setMenuOpen(false)}
-            >
-              Продукція
-            </a>
+            
 
             <a
               href="/projects"
