@@ -3,7 +3,7 @@ export default function AboutPage() {
     <main className="bg-white">
       {/* Hero */}
       <section className="bg-slate-900 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-20 text-center">
+        <div className="mx-auto max-w-4xl px-6 text-center relative left-96">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
             Працюємо з 1997 року
           </p>

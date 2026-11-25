@@ -15,11 +15,21 @@ export default function ProjectsPage() {
   ];
 
   return (
-    <main className="mx-auto max-w-7xl px-6 py-20">
-      <h1 className="text-5xl font-bold">
-        Наші проєкти
+    <main className="bg-white">
+      {/* Hero */}
+<section className="bg-slate-900 py-32 text-white">
+  <div className="mx-auto max-w-4xl px-6 text-center relative left-96">
+    <div className="flex flex-col items-center text-center">
+      <p className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-400">
+        IPS
+      </p>
+      <h1 className="mt-3 text-5xl font-bold lg:text-6xl">
+      Наші проєкти
       </h1>
-
+    
+    </div>
+  </div>
+</section>
       <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <div
