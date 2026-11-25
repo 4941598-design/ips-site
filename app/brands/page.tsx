@@ -16,7 +16,7 @@ export default function BrandsPage() {
     },
     {
       name: "Heradesign",
-      logo: "/images/brands/Heradesign Logo.jpg",
+      logo: "/images/brands/Heradesign-Logo.jpg",
       description:
         "Панелі з деревного волокна для акустичного комфорту та сучасного дизайну.",
       link: "/brands/heradesign",
