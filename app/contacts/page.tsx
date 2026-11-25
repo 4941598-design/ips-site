@@ -3,7 +3,7 @@ export default function ContactsPage() {
     <main className="bg-white">
       {/* Hero */}
       <section className="bg-slate-900 py-48 text-white">
-        <div className="mx-auto max-w-5xl px-6 text-center relative left-96">
+        <div className="mx-auto max-w-4xl px-6 text-center xl:relative xl:left-96">
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-400">
             IPS
           </p>

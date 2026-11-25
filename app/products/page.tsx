@@ -30,7 +30,7 @@ export default function ProductsPage() {
     <main className="bg-white">
       {/* Hero */}
       <section className="bg-slate-900 py-32 text-white">
-  <div className="mx-auto max-w-4xl px-6 text-center relative left-96">
+  <div className="mx-auto max-w-4xl px-6 text-center xl:relative xl:left-96">
     <div className="flex flex-col items-center text-center">
       <p className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-400">
         IPS
