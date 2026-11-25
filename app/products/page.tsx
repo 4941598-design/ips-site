@@ -52,22 +52,38 @@ export default function ProductsPage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {products.map((product) => (
-              <div
-                key={product.name}
-                className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition hover:shadow-xl"
-              >
-                <h2 className="text-2xl font-semibold">
-                  {product.name}
-                </h2>
+             <a
+  href="#"
+  key={product.name}
+  className="
+    group
+    block
+    rounded-3xl
+    border
+    border-sky-100
+    bg-gradient-to-b
+    from-sky-100
+to-white
+    p-7 min-h-[160px]
+    shadow-[0_10px_25px_rgba(0,0,0,0.12)]
+    transition-all
+    duration-200
+    hover:-translate-y-2
+    hover:shadow-[0_20px_40px_rgba(0,0,0,0.18)]
+    active:translate-y-1
+    active:shadow-[0_5px_10px_rgba(0,0,0,0.15)]
+  "
+>
+                <h2 className="text-3xl font-bold text-sky-900 transition-colors duration-200 group-hover:text-sky-700">
+  {product.name}
+</h2>
 
-                <p className="mt-3 text-slate-600">
-                  {product.category}
-                </p>
-
-                <button className="mt-6 rounded-xl bg-sky-900 px-5 py-3 text-white">
-                  Детальніше
-                </button>
-              </div>
+                <p className="mt-5 text-lg font-medium text-slate-600">
+  {product.category}
+</p>
+</a>
+                
+              
             ))}
           </div>
         </div>
