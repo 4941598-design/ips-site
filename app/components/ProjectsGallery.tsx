@@ -31,12 +31,7 @@ export default function ProjectsGallery() {
                   Гігієнічні та акустичні стельові рішення.
                 </p>
 
-                <div className="mt-6 flex items-center font-semibold text-sky-700">
-                  Детальніше
-                  <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">
-                    →
-                  </span>
-                </div>
+                
               </div>
             </div>
 
@@ -59,12 +54,7 @@ export default function ProjectsGallery() {
                   Акустичний комфорт та продуктивність.
                 </p>
 
-                <div className="mt-6 flex items-center font-semibold text-sky-700">
-                  Детальніше
-                  <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">
-                    →
-                  </span>
-                </div>
+                
               </div>
             </div>
 
@@ -87,12 +77,7 @@ export default function ProjectsGallery() {
                   Комфортне середовище для навчання.
                 </p>
 
-                <div className="mt-6 flex items-center font-semibold text-sky-700">
-                  Детальніше
-                  <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">
-                    →
-                  </span>
-                </div>
+                
               </div>
             </div>
           </div>
