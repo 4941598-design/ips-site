@@ -19,29 +19,13 @@ export default function ContactsPage() {
       </section>
 
       {/* Контактна інформація */}
-      <section className="pt-20 pb-20">
-  <div className="mx-auto px-6">
-    <div className="flex justify-center mt-96">
-      <div className="mt-64 w-full max-w-3xl rounded-3xl border border-slate-200 bg-white p-10 shadow-lg">
-
-        <div className="space-y-6 text-lg">
-
-          <p>
-            <strong>Телефон:</strong> +380 96 436 19 95
-          </p>
-
-          <p>
-            <strong>Email:</strong> 4941598@gmail.com
-          </p>
-
-          <p>
-            <strong>Адреса:</strong> м. Київ
-          </p>
-
-        </div>
-
-      </div>
-    </div>
+      <section className="py-20">
+  <div className="flex justify-center">
+    <img
+      src="/images/contacts/contact-card.jpg"
+      alt="Контакти IPS"
+      className="w-full max-w-5xl rounded-3xl shadow-2xl"
+    />
   </div>
 </section>
     </main>
