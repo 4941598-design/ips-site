@@ -4,6 +4,7 @@ export default function ProductsSection() {
     name: "Rockfon",
     type: "Акустичні та стельові рішення",
     color: "bg-sky-100",
+    link: "/brands/rockfon-products",
   },
   {
     name: "Heradesign",
@@ -49,7 +50,7 @@ export default function ProductsSection() {
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
             {products.map((product) => (
               <a
-  href="#"
+  href={product.link}
                 key={product.name}
                 className="group block w-[380px] min-h-[180px] rounded-3xl border border-slate-200 bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl active:translate-y-1 active:shadow-md"
               >
