@@ -1,17 +1,14 @@
 export default function StatsSection() {
   const stats = [
     {
-      value: "25+",
+      value: "28+",
       label: "років досвіду",
     },
     {
       value: "500+",
-      label: "реалізованих проєктів",
+      label: "реалізованих об'єктів",
     },
-    {
-      value: "4",
-      label: "провідні бренди",
-    },
+    
     {
       value: "100%",
       label: "супровід проєкту",
@@ -21,7 +18,7 @@ export default function StatsSection() {
   return (
     <section className="bg-white pt-16 pb-24">
       <div className="mx-auto max-w-screen-2xl px-6">
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-3">
           {stats.map((stat) => (
             <div
               key={stat.label}
