@@ -52,15 +52,15 @@ export default function ProductsSection() {
               <a
   href={product.link}
                 key={product.name}
-                className="group block w-[380px] min-h-[180px] rounded-3xl border border-slate-200 bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl active:translate-y-1 active:shadow-md"
+                className="group flex h-[140px] w-[380px] flex-col items-center justify-center rounded-3xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-8 text-center shadow-md transition-all duration-300 hover:-translate-y-2 hover:scale-[1.03] hover:border-sky-300 hover:shadow-2xl active:translate-y-1 active:shadow-md"
               >
                 
 
-                <h3 className="text-2xl font-bold text-sky-900">
+                <h3 className="text-3xl font-bold text-sky-900 transition-colors duration-300 group-hover:text-sky-700">
                   {product.name}
                 </h3>
 
-                <p className="mt-3 leading-7 text-slate-600">
+                <p className="mt-2 text-sm leading-6 text-slate-500">
                   {product.type}
                 </p>
 
