@@ -34,7 +34,7 @@ export default function AboutPage() {
 
             <div>
               <h2 className="text-4xl font-bold text-sky-900">
-                Понад 25 років створюємо комфортні простори
+                Понад 28 років створюємо комфортні простори
               </h2>
 
               <p className="mt-6 text-lg leading-8 text-slate-600">
@@ -50,9 +50,7 @@ export default function AboutPage() {
                 <div>✓ Технічна підтримка проєктів</div>
               </div>
 
-              <button className="mt-10 rounded-2xl bg-sky-800 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-sky-900">
-                Зв'язатися з нами
-              </button>
+              
             </div>
           </div>
         </div>
@@ -66,7 +64,7 @@ export default function AboutPage() {
     </h2>
 
     <p className="mx-auto mt-4 text-center text-lg text-slate-600">
-      Понад 25 років допомагаємо створювати сучасні,
+      Допомагаємо створювати сучасні,
       функціональні та довговічні простори.
     </p>
 
@@ -77,7 +75,7 @@ export default function AboutPage() {
     </h3>
 
     <p className="mt-4 leading-8 text-slate-600">
-      Понад 25 років реалізуємо проєкти різного масштабу для медицини,
+      Понад 28 років реалізуємо проєкти різного масштабу для медицини,
       освіти, офісів та громадських просторів.
     </p>
   </div>
@@ -105,73 +103,12 @@ export default function AboutPage() {
   </div>
 </div>
 
-          <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
-            <div className="rounded-3xl bg-white p-8 min-h-[220px] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
-              <h3 className="text-2xl font-bold text-sky-900">
-                ROCKFON
-              </h3>
-
-              <p className="mt-3 text-slate-600">
-                Світовий виробник акустичних стельових систем та архітектурної акустики.
-              </p>
-            </div>
-
-            <div className="rounded-3xl bg-white p-8 min-h-[220px] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
-              <h3 className="text-lg font-bold text-sky-900">
-                KNAUF CEILING SOLUTIONS
-              </h3>
-
-              <p className="mt-3 text-slate-600">
-                AMF, Armstrong та професійні стельові рішення.
-              </p>
-            </div>
-
-            <div className="rounded-3xl bg-white p-8 min-h-[220px] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
-              <h3 className="text-lg font-bold text-sky-900">
-                HERADESIGN
-              </h3>
-
-              <p className="mt-3 text-slate-600">
-                Панелі з деревного волокна для акустичного комфорту та сучасного дизайну.
-              </p>
-            </div>
-
-            <div className="rounded-3xl bg-white p-8 min-h-[220px] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
-              <h3 className="text-lg font-bold text-sky-900">
-                KRAFT
-              </h3>
-
-              <p className="mt-3 text-slate-600">
-                Архітектурні металеві стелі та дизайнерські рішення.
-              </p>
-            </div>
+          
           </div>
-        </div>
       </section>
 
       {/* CTA */}
-      <section className="bg-sky-900 py-24 text-white">
-        <div className="mx-auto max-w-4xl px-6 text-center">
-          <h2 className="text-4xl font-bold">
-            Готові обговорити ваш проєкт?
-          </h2>
-
-          <p className="mt-6 text-lg text-slate-200">
-            Допоможемо підібрати оптимальні стельові, акустичні та освітлювальні
-            рішення для вашого об'єкта.
-          </p>
-
-          <div className="mt-10 flex flex-wrap justify-center gap-6">
-            <button className="rounded-2xl bg-amber-500 px-10 py-5 text-lg font-bold text-slate-900 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-amber-400">
-              Отримати консультацію
-            </button>
-
-            <button className="rounded-2xl border-2 border-white px-10 py-5 text-lg font-bold transition-all duration-300 hover:bg-white hover:text-slate-900">
-              Надіслати проєкт
-            </button>
-          </div>
-        </div>
-      </section>
+      
     </main>
   );
 }

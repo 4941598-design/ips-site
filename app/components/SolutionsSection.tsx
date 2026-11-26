@@ -40,7 +40,7 @@ export default function SolutionsSection() {
 </h2>
 
         <p className="mt-4 text-center text-lg text-slate-600">
-  Ідеї для комерційних, медичних та громадських просторів
+  Для комерційних, медичних та громадських просторів
 </p>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">

@@ -94,26 +94,7 @@ export default function BrandsPage() {
       </section>
 
       {/* CTA */}
-      <section className="mt-10 bg-sky-900 py-10 text-white">
-        <div className="mx-auto max-w-4xl px-6 text-center">
-          <h2 className="text-2xl font-bold lg:text-3xl">
-            Допоможемо підібрати бренд під ваш проєкт
-          </h2>
-
-          <p className="mx-auto mt-5 max-w-3xl text-lg text-slate-200">
-            Консультуємо щодо вибору акустичних, стельових та архітектурних
-            рішень для офісів, медичних закладів, освітніх установ та
-            комерційних просторів.
-          </p>
-
-          <a
-            href="/contacts"
-            className="mt-8 inline-flex rounded-2xl bg-amber-500 px-8 py-4 text-lg font-bold text-slate-900 transition-all duration-300 hover:-translate-y-1 hover:bg-amber-400"
-          >
-            Отримати консультацію
-          </a>
-        </div>
-      </section>
+      
     </main>
   );
 }
