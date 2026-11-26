@@ -86,12 +86,7 @@ export default function BrandsPage() {
                   {brand.description}
                 </p>
 
-                <a
-  href={brand.link}
-  className="mt-6 inline-flex w-fit rounded-xl bg-sky-900 px-5 py-3 font-semibold text-white transition-all duration-300 hover:bg-sky-800"
->
-  Детальніше
-</a>
+                
               </article>
             ))}
           </div>
