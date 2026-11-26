@@ -1,17 +1,18 @@
 export default function RockfonSonarPage() {
   return (
     <main className="bg-white">
-      <section className="bg-slate-900 py-24 text-white">
-        <div className="mx-auto max-w-5xl px-6 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.35em] text-amber-400">
+      {/* Hero */}
+      <section className="bg-slate-900 py-48 text-white">
+        <div className="mx-auto max-w-4xl px-6 text-center xl:relative xl:left-96">
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-400">
             ROCKFON
           </p>
 
-          <h1 className="mt-4 text-5xl font-bold">
+          <h1 className="mt-3 text-5xl font-bold lg:text-6xl">
             Rockfon Sonar
           </h1>
 
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+          <p className="mx-auto max-w-4xl px-6 text-center xl:relative xl:left-0">
             Акустична стельова система для офісів, освітніх та громадських просторів.
           </p>
         </div>

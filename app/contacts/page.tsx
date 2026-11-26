@@ -18,6 +18,8 @@ export default function ContactsPage() {
         </div>
       </section>
 
+
+
       {/* Контактна інформація */}
       <section className="py-20">
   <div className="flex justify-center">

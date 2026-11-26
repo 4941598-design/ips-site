@@ -43,9 +43,11 @@ const products = [
 export default function RockfonProductsPage() {
   return (
     <main className="bg-white">
-      <section className="bg-slate-900 py-32 text-white">
-        <div className="mx-auto max-w-4xl px-6 text-center">
+      {/* Hero */}
+      <section className="bg-slate-900 py-48 text-white">
+        <div className="mx-auto max-w-4xl px-6 text-center xl:relative xl:left-96">
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-400">
+
             ROCKFON
           </p>
 
@@ -53,11 +55,13 @@ export default function RockfonProductsPage() {
             Каталог Rockfon
           </h1>
 
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+          <p className="mx-auto max-w-4xl px-6 text-center xl:relative xl:left-0">
             Акустичні, гігієнічні та дизайнерські стельові рішення Rockfon.
           </p>
         </div>
+        
       </section>
+
       <section className="py-20">
   <div className="mx-auto max-w-7xl px-6">
 
