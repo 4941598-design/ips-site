@@ -35,7 +35,7 @@ export default function Header() {
           
 
           <a href="/projects" className="hover:text-sky-700">
-            Проєкти
+            Галерея
           </a>
 
           <a href="/contacts" className="hover:text-sky-700">
