@@ -1,71 +1,165 @@
 export default function KraftPage() {
   return (
-    <main className="mx-auto max-w-7xl px-6 py-20">
-      <h1 className="text-5xl font-bold text-sky-900">
-        Kraft
-      </h1>
+    <main className="bg-white py-20 flex justify-center">
+      <div className="mx-auto max-w-4xl px-6 text-center">
+        <h1 className="text-5xl font-bold text-sky-900 lg:text-6xl">
+          KRAFT
+        </h1>
 
-      <p className="mt-6 max-w-4xl text-lg text-slate-600">
-        Kraft пропонує сучасні архітектурні металеві
-        рішення для стель, фасадів та інтер'єрів.
-        Системи поєднують довговічність, сучасний
-        дизайн та широкі можливості для архітекторів.
-      </p>
-
-      <section className="mt-16">
-        <h2 className="text-3xl font-semibold">
-          Основні напрямки
-        </h2>
-
-        <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <div className="rounded-3xl border p-6">
-            <h3 className="text-xl font-semibold">
-              Металеві стелі
-            </h3>
-
-            <p className="mt-3 text-slate-600">
-              Надійні та довговічні рішення для
-              комерційних і громадських об'єктів.
-            </p>
-          </div>
-
-          <div className="rounded-3xl border p-6">
-            <h3 className="text-xl font-semibold">
-              Рейкові системи
-            </h3>
-
-            <p className="mt-3 text-slate-600">
-              Сучасні архітектурні рішення для
-              інтер'єрів та громадських просторів.
-            </p>
-          </div>
-
-          <div className="rounded-3xl border p-6">
-            <h3 className="text-xl font-semibold">
-              Архітектурна сітка
-            </h3>
-
-            <p className="mt-3 text-slate-600">
-              Декоративні та функціональні рішення
-              для стель і фасадів.
-            </p>
-          </div>
+        <div className="mt-10 flex justify-center">
+          <img
+            src="/images/brands/KRAFT Logo.jpg"
+            alt="KRAFT"
+            className="h-24 w-auto lg:h-32"
+          />
         </div>
-      </section>
 
-      <section className="mt-16">
-        <h2 className="text-3xl font-semibold">
-          Сфери застосування
+        <h2 className="mt-16 text-3xl font-bold text-slate-900">
+          KRAFT Deckensysteme — системи підвісних стель та інтегрованого
+          освітлення для сучасних об'єктів
         </h2>
 
-        <ul className="mt-6 space-y-3 text-lg text-slate-600">
-          <li>• Бізнес-центри</li>
-          <li>• Торговельні центри</li>
-          <li>• Аеропорти</li>
-          <li>• Ресторани та готелі</li>
-          <li>• Громадські простори</li>
-        </ul>
-      </section>
+        <p className="mt-10 text-lg leading-8 text-slate-700">
+          Компанія <strong>KRAFT Deckensysteme</strong> — провідний виробник
+          металевих підвісних стель та інтегрованого світлодіодного освітлення
+          KRAFT LED. Як офіційний дилер KRAFT Deckensysteme в Україні, ми
+          забезпечуємо комплексне постачання сертифікованих стельових систем
+          безпосередньо із заводу для комерційних, громадських та промислових
+          об'єктів будь-якого масштабу.
+        </p>
+
+        <h2 className="mt-16 text-3xl font-bold text-slate-900">
+          Про бренд та масштаби виробництва
+        </h2>
+
+        <p className="mt-8 text-lg leading-8 text-slate-700">
+          Із 2012 року KRAFT Deckensysteme задає стандарти якості на ринку
+          підвісних стель. Виробничі комплекси компанії в Україні та Туреччині
+          площею понад 15 000 м² працюють за принципом повного циклу: від
+          контролю якості вхідної оцинкованої сталі та алюмінію до
+          високоточного профілювання і полімерного фарбування.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          Продукція бренду експортується у більш ніж 20 країн світу, а щороку
+          із застосуванням стель KRAFT реалізується понад 1 500 проєктів — від
+          великих ТРЦ, бізнес-центрів та логістичних хабів до медичних
+          закладів, шкіл, готелів і спортивних арен.
+        </p>
+
+        <h2 className="mt-16 text-3xl font-bold text-slate-900">
+          Асортимент підвісних стель KRAFT
+        </h2>
+
+        <p className="mt-8 text-lg leading-8 text-slate-700">
+          Усі елементи систем повністю сумісні між собою, що дає змогу
+          комбінувати різні типи стельових конструкцій та інтегрувати
+          освітлення без додаткової підгонки на об'єкті.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Стеля грильято</strong> (класичний, пірамідальний, касетний
+          GLK, жалюзі, діагональний) — оптимальне рішення для великих площ із
+          високими вимогами до вентиляції та димовидалення.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Рейкова стеля</strong> (кубоподібна та пластинчаста рейка) —
+          сучасний дизайн з можливістю регулювання кроку, висоти профілю та
+          вибору покриття за палітрою RAL або з текстурою натурального дерева.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Несучі системи Т-профілів</strong> (серії NOVA та FORTIS,
+          Т-24 і Т-15) — посилена геометрія замків та висока несуча здатність
+          для мінеральних, акустичних і металевих плит.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Сітчасті панелі та металеві касети</strong> — довговічні
+          конструкції з простим доступом до інженерних комунікацій,
+          розташованих над стелею.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Акустичні стельові та стінові панелі</strong> —
+          ефективне поглинання шуму та корекція реверберації.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Світильники KRAFT LED</strong> — спеціалізоване освітлення,
+          інтегроване в геометрію стель грильято, рейки чи Т-профілю без
+          додаткових підвісів.
+        </p>
+
+        <h2 className="mt-16 text-3xl font-bold text-slate-900">
+          Технічні переваги для архітекторів і проєктантів
+        </h2>
+
+        <p className="mt-8 text-lg leading-8 text-slate-700">
+          <strong>Відповідність будівельним нормам і стандартам ЄС.</strong>
+          Стелі мають сертифікати відповідності України та європейське
+          CE-маркування відповідно до стандарту EN 13964.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Пожежна безпека.</strong> Металеві стельові системи належать
+          до класу негорючих матеріалів (НГ / А1), що дозволяє встановлювати їх
+          на шляхах евакуації та об'єктах із підвищеними вимогами безпеки.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Готова технічна база для проєктування.</strong> Доступні
+          BIM-моделі, вузли примикань у форматі DWG, інструкції з монтажу та
+          протоколи випробувань.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Свобода архітектурних рішень.</strong> Власне конструкторське
+          бюро заводу виготовляє стелі з нестандартними розмірами комірок,
+          індивідуальними перерізами рейки та комбінованими сценаріями
+          освітлення.
+        </p>
+
+        <h2 className="mt-16 text-3xl font-bold text-slate-900">
+          Економічні та практичні вигоди
+        </h2>
+
+        <p className="mt-8 text-lg leading-8 text-slate-700">
+          <strong>Прогнозовані терміни постачання.</strong> Локалізоване
+          виробництво та постійний складський запас стандартних позицій
+          дозволяють уникати затримок на будівельних майданчиках.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Висока швидкість монтажу.</strong> Точна геометрія профілів
+          та уніфіковані вузли кріплення зменшують трудовитрати та
+          прискорюють введення об'єкта в експлуатацію.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Довговічність і зручність обслуговування.</strong>
+          Антикорозійне покриття забезпечує стійкість до вологи та перепадів
+          температур, а модульна конструкція дозволяє швидко отримати доступ
+          до інженерних мереж.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-slate-700">
+          <strong>Офіційна гарантія виробника.</strong> На всю лінійку
+          підвісних стель та світильників KRAFT LED діє гарантія 3 роки.
+        </p>
+
+        <h2 className="mt-16 text-3xl font-bold text-slate-900">
+          Чому обирають KRAFT
+        </h2>
+
+        <p className="mt-8 text-lg leading-8 text-slate-700">
+          Як офіційний дилер KRAFT Deckensysteme, ми пропонуємо прямі ціни
+          виробника, професійний підбір систем, інженерний розрахунок
+          специфікації, швидке постачання та технічний супровід проєкту на всіх
+          етапах реалізації.
+        </p>
+      </div>
     </main>
   );
 }

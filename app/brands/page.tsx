@@ -23,7 +23,7 @@ export default function BrandsPage() {
     },
     {
       name: "Kraft",
-      logo: "/images/brands/KRAFT Logo.png",
+      logo: "/images/brands/KRAFT Logo.jpg",
       description:
         "Архітектурні металеві рейки, стелі та дизайнерські металеві рішення.",
       link: "/brands/kraft",
