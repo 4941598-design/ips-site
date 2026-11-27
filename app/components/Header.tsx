@@ -88,7 +88,7 @@ export default function Header() {
               className="py-3"
               onClick={() => setMenuOpen(false)}
             >
-              Проєкти
+              Галерея
             </a>
 
             <a
