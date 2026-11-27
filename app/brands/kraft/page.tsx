@@ -2,7 +2,7 @@ export default function KraftPage() {
   return (
     <main className="bg-white py-20 flex justify-center">
       <div className="mx-auto max-w-4xl px-6 text-center">
-        <h1 className="text-5xl font-bold text-sky-900 lg:text-6xl">
+        <h1 className="text-4xl font-bold text-sky-900 lg:text-5xl">
           KRAFT
         </h1>
 
