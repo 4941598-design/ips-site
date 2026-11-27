@@ -58,9 +58,11 @@ export default function BrandsPage() {
         <div className="mx-auto max-w-screen-2xl px-6">
           <div className="grid gap-8 md:grid-cols-2">
             {brands.map((brand) => (
-              <article
+              <a
   key={brand.name}
-  className="flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+  href={brand.link}
+  className="flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+>
 
                 <div className="flex h-32 items-center justify-center overflow-hidden rounded-2xl bg-slate-50 p-4">
                   <img
@@ -87,7 +89,7 @@ export default function BrandsPage() {
                 </p>
 
                 
-              </article>
+              </a>
             ))}
           </div>
         </div>
