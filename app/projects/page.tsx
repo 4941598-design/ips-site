@@ -100,6 +100,18 @@ export default function ProjectsPage() {
     </h3>
   </div>
 </article>
+<article className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer">
+  <img
+    src="/images/solutions/sport.jpg"
+    alt="Спортивні зали"
+    className="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+  />
+  <div className="absolute inset-0 flex items-center justify-center bg-black/10">
+    <h3 className="px-4 text-center text-3xl font-bold text-white drop-shadow-lg">
+      Спортивні зали
+    </h3>
+  </div>
+</article>
     </div>
   </div>
 </section>
