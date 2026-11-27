@@ -264,8 +264,24 @@ KRAFT Plate Baffle
 Каталоги
 </summary>
  
-<div className="mt-4 pl-6 text-slate-500">
-Документи будуть додані найближчим часом.
+<div className="mt-4 flex flex-col gap-3 pl-6">
+  <a
+    href="/pdf/kraft/catalogues/kraft-product-catalogue.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-sky-900 hover:underline"
+  >
+    KRAFT Product Catalogue
+  </a>
+
+  <a
+    href="/pdf/kraft/catalogues/kraft-product-design-album.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-sky-900 hover:underline"
+  >
+    KRAFT Product Design Album
+  </a>
 </div>
 </details>
 </div>
