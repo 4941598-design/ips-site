@@ -22,10 +22,11 @@ export default function ProductsSection() {
     color: "bg-orange-100",
   },
   {
-    name: "Kraft",
-    type: "Архітектурні металеві системи",
-    color: "bg-orange-100",
-  },
+  name: "Kraft",
+  type: "Архітектурні металеві системи",
+  color: "bg-orange-100",
+  link: "/brands/kraft-products",
+},
   {
     name: "Освітлення LED",
     type: "Інтегровані світлові рішення",
