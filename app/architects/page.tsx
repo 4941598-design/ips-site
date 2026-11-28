@@ -108,8 +108,15 @@ Rockfon Eclipse Installation
 Каталоги
 </summary>
  
-<div className="mt-4 pl-6 text-slate-500">
-Документи будуть додані найближчим часом.
+<div className="mt-4 flex flex-col gap-3 pl-6">
+  <a
+    href="/pdf/rockfon/catalogues/Rockfon-color-palette.jpg"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-sky-900 hover:underline"
+  >
+    Rockfon Color Palette
+  </a>
 </div>
 </details>
 </div>
